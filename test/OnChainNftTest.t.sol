@@ -2,8 +2,8 @@
 pragma solidity ^0.8.19;
 
 import {Test, console} from "forge-std/Test.sol";
-import {OnChainNft} from "../../src/OnChainNft.sol";
-import {DeployOnChainNft} from "../../script/DeployOnChainNft.s.sol";
+import {OnChainNft} from "../src/OnChainNft.sol";
+import {DeployOnChainNft} from "../script/DeployOnChainNft.s.sol";
 
 contract OnChainNftTest is Test {
     DeployOnChainNft public deployer;
